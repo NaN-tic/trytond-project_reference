@@ -10,6 +10,10 @@ msgctxt "field:project.work,employees:"
 msgid "Employees"
 msgstr "Empleados"
 
+msgctxt "field:project.work,reference:"
+msgid "Reference"
+msgstr "Referencia"
+
 msgctxt "field:project.work-company.employee,create_date:"
 msgid "Create Date"
 msgstr "Fecha creación"
@@ -42,19 +46,19 @@ msgctxt "field:project.work-company.employee,write_uid:"
 msgid "Write User"
 msgstr "Usuario modificación"
 
-msgctxt "model:ir.action,name:act_project_reference_tree"
+msgctxt "model:ir.action,name:"
 msgid "My projects"
 msgstr "Mis proyectos"
 
-msgctxt "model:ir.action,name:act_task_employee_tree"
+msgctxt "model:ir.action,name:"
 msgid "My tasks"
 msgstr "Mis tareas"
 
-msgctxt "model:ir.ui.menu,name:menu_project_reference_tree"
+msgctxt "model:ir.ui.menu,name:"
 msgid "My projects"
 msgstr "Mis proyectos"
 
-msgctxt "model:ir.ui.menu,name:menu_task_employee_tree"
+msgctxt "model:ir.ui.menu,name:"
 msgid "My tasks"
 msgstr "Mis tareas"
 
@@ -62,7 +66,7 @@ msgctxt "model:project.work-company.employee,name:"
 msgid "Project Work - Employee"
 msgstr "Trabajo - Empleado"
 
-msgctxt "model:res.group,name:group_project_reference"
+msgctxt "model:res.group,name:"
 msgid "Project Employee Administration"
 msgstr "Administrador de proyectos y empleados"
 

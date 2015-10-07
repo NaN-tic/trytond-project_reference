@@ -18,10 +18,10 @@ The COPYRIGHT file at the top level of this repository contains the full copyrig
             <field name="inherit" ref="project.work_view_list"/>
             <field name="name">work_list</field>
         </record>
-        <record model="ir.ui.view" id="work_view_list2">
+        <record model="ir.ui.view" id="work_view_list_simple">
             <field name="model">project.work</field>
-            <field name="inherit" ref="project.work_view_list2"/>
-            <field name="name">work_list2</field>
+            <field name="inherit" ref="project.work_view_list_simple"/>
+            <field name="name">work_list_simple</field>
         </record>
     </data>
 </tryton>

@@ -5,10 +5,10 @@ from trytond.model import fields
 from trytond.pool import Pool, PoolMeta
 
 __all__ = ['Work']
-__metaclass__ = PoolMeta
 
 
 class Work:
+    __metaclass__ = PoolMeta
     __name__ = 'project.work'
     reference = fields.Reference('Reference', selection='get_reference',
         select=True)
